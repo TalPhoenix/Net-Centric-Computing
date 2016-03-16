@@ -1,0 +1,68 @@
+div{
+    text-align:center;
+    font-family: Tahoma;
+    font-stretch: ultra-expanded;
+    line-height: 24px;
+    margin:auto;
+    color:#eeeeee;
+    font-size:20px;
+}
+#ultra{
+    line-height: 25px;
+    font-weight: 100;
+}
+#grad1{
+     height: 750px;
+     width: 575px;
+     background: linear-gradient(135deg, #2f88ca, #275caa);
+ }
+
+#computer {
+    width:100%;
+    height:100%;
+    align="middle";
+    position: relative;
+    right: 15px;
+    bottom: 150px;
+    margin: 15px 15px 15px 15px;
+}
+
+#logo{
+    position: absolute;
+    top: 600px;
+    left: 175px;
+    z-index: 50;
+    width: 16%;
+    height: 17%;
+}
+#logo2{
+    position: absolute;
+    top: 575px;
+    right: 150px;
+    z-index: 50;
+    width: 19%;
+    height: 22%;
+}
+p{
+    text-align: left;
+    font-style: normal;
+    font-family: Tahoma;
+    font-stretch: expanded;
+    position: relative;
+    bottom: 54px;
+    left:205px;
+    color:#ffffff;
+    font-size:12px;
+}
+
+#http{
+    text-align: left;
+    font-style: normal;
+    font-family: Tahoma;
+    position: relative;
+    font-stretch: expanded;
+    bottom: 100px;
+    left: 435px;
+    color:#ffffff;
+    font-size: 23px;
+}

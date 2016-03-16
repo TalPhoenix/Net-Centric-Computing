@@ -1,0 +1,168 @@
+body
+{
+    font-size: 100%;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 400;
+	background-color: #5555ee;
+}
+ul#tabs                                     /* unordered list with name id tabs */
+{
+    list-style-type: none;                  /* No bullets                     */
+    margin: 50px 0 0 0;                    /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make  */
+                                            /* them adjacent to the content   */
+}
+ul#tabs li                                  /* list item */
+{
+    display: inline;                        /* text will be inline meaning it will not start on a new line and will only take up the amount of space necessary */
+    padding: 20px;                          /* padding from the left side */
+}
+
+ul#tabs li a                                /* list item */
+{
+    color: #9900ff;                         /* text color */
+    background-color: #bbbbff;              /* background color of boxes and tabs */
+    border: 5px solid #000000;              /* border of box and tabs will be 1px solid stroke with color listed */
+    border-bottom: none;                    /* property that will affect the bottom of border */
+    border-top-left-radius: 25px;            /* this is the property that will round the left corner of a box */
+    border-top-right-radius: 7px;           /* this is the property that will round the right corner of a box */
+    padding: 0.7em 2em 0.3em 2em;           /* padding all around to get to be in the center of the tab */
+    text-decoration: underline;                  /* text does not have any special properties such as underline, strikethrough, etc. */
+
+}
+
+ul#tabs li a:hover                          /* this is the tag that will allow you to edit hover properties */
+{
+    background-color: #8888ff;              /* makes it so that when you hover over a tag it will change that color */
+	color: #ffffff;
+}
+
+ul#tabs li a.selected                       /* this is the tag that will allow you to edit selected tab properties */
+{
+    color: #6600ff;                            /* text color when selected */
+    background-color: #ececff;              /* background color when selected */
+    font-weight: bold;                      /* font weight of tab words when selected */
+    padding: 0.7em 2em 0.6em 2em;      /* position of text when tab is selected */
+}
+
+div.tabContent                              /* content inside of each tab page */
+{
+    border: 5px solid #000000;              /* border of box and tabs will be 1px solid stroke with color listed */
+    padding: 2em;                         /* padding around content inside of the box */
+    background-color: #ececff;              /* content box color */
+	border-top-left-radius: 14px;            /* this is the property that will round the left corner of a box */
+    border-top-right-radius: 14px; 
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+
+div.tabContent.hide                         /* when hidden do not display content box for that tab */
+{
+    display: none;                          /* used to hide or show items without deleting them */
+}
+img
+{
+	width: 85%;
+	padding: 0 0 1em 3.5em;
+}
+a:link {
+    color: #7F33FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #ff00ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: 00ffdd;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #4800FF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+img.lion {
+	
+	width:25%;
+	padding: 0 8em 8em 16em;
+}
+img.flower {
+	
+	width:25%;
+	padding: 0 0 10em 8em;
+}
+img.dragon {
+	
+	width:25%;
+	padding: 0 8em 8em 16em;
+}
+img.still {
+	
+	width:25%;
+	padding: 0 0 18em 8em;
+}
+img.bear {
+	
+	width:25%;
+	padding: 0 8em 9em 16em;
+}
+img.planets {
+	
+	width:25%;
+	padding: 0 0 8em 8em;
+}
+img.dolen {
+	
+	width:25%;
+	padding: 0 0 8em 16em;
+}
+img.me {
+	
+	width:25%;
+	padding: 0 0 14em 16em;
+}
+img.helios {
+	
+	width:25%;
+	padding: 0 0 8em 16em;
+}
+img.red {
+	
+	width:25%;
+	padding: 0 0 10em 16em;
+}
+img.bubbles {
+	
+	width:25%;
+	padding: 0 0 10em 16em;
+}
+img.phoenix {
+	
+	width:25%;
+	padding: 0 0 10.5em 16em;
+}
+img.ML {
+	
+	width:30%;
+	padding: 0 0 12em 16em;
+}
+img.tyco {
+	
+	width:30%;
+	padding: 0 0 8em 16em;
+}
+img.frog {
+	
+	width:30%;
+	padding: 0 0 13em 16em;
+}
+img.water {
+	
+	width:30%;
+	padding: 0 0 10.5em 16em;
+}

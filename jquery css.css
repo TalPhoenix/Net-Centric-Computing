@@ -1,0 +1,52 @@
+body
+{
+    font-size: 100%;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+	color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+	background-color: #1300AD;
+}
+button
+{
+	font-size: 100%;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 400;
+	background-color: #00CDFF;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 2 px;
+	border-top-left-radius: 2 px;
+	border-top-right-radius: 8px;
+	
+}
+img.title{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position:absolute;
+}
+img.moon1{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position: absolute;
+}
+img.moon2{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position: absolute;
+}
+img.moon3{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position: absolute;
+}
+img.moon4{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position: absolute;
+}
+img.moon5{
+	width: 25%;
+	padding: 0 0 0 20em;	
+	position: absolute;
+}
