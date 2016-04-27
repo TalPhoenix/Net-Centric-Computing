@@ -1,0 +1,36 @@
+<!doctype html>
+<html> 
+     <head> 
+         <title>Database Insert</title> 
+         <link 	rel="stylesheet" 
+                type="text/css" 
+                href="dbInsert.css"> 
+         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+         <script src="dbInsert.js" type="text/javascript"></script> 
+         <script>var __adobewebfontsappname__="dreamweaver"</script>
+   		 <script src="http://use.edgefonts.net/bilbo-swash-caps:n4:default.js" type="text/javascript"></script>
+     </head> 
+     <body onload="onLoad()"> 
+         <form name="dbInsert"> 
+             Movie: <select id="Movies" name="Movies"></select> <br> 
+             ActorFN: <input type="text" id="ActorFN" name="ActorFN"> <br> 
+             ActorLN: <input type="text" id="ActorLN" name="ActorLN"> <br> 
+             <button type="button" onclick="insertMovieActors()"> Insert </button> <br> 
+ 
+             <p id="results"></p> 
+ 
+            <p id="movieactors"></p>
+            
+<!--            <p id="movies"></p> 
+-->
+             <button type="button" onclick="showMovieActors()"> 
+                 Show Movie Actors
+             </button>
+             
+<!--              <button type="button" onclick="showMovies()"> 
+                 Show Movies
+             </button>
+-->
+         </form> 
+     </body> 
+ </html> 

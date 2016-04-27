@@ -1,0 +1,26 @@
+body
+{
+	color: #FFFFFF;
+    font-size: 25px;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 400;
+	background-color: #5555ee;
+}
+form{
+	font-size: 25px;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 400;	
+	}
+button{
+	
+	font-size: 25px;                         /* Default font and size for page */
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 400;
+	border-top-left-radius: 14px;            /* this is the property that will round the left corner of a box */
+    border-top-right-radius: 1px; 
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 1px;
+	}	
